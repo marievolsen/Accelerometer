@@ -15,7 +15,7 @@ public class AccelerometerLogger : MonoBehaviour
         writer.WriteLine("Time,X,Y,Z");
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (isLogging)
         {
